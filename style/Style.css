@@ -1,0 +1,182 @@
+
+body{
+    flex-flow:row wrap;
+    /*background-size: cover;*/
+    background-image: url(https://www.shutterstock.com/image-vector/vector-carbon-fiber-texture-dark-600nw-726091315.jpg);
+}
+.list-item{
+    list-style: none;
+    display:inline-block;
+    /*left: 250px;*/
+    margin: 5px;
+}
+.list-item a{
+    background-image: url(https://i.pinimg.com/474x/08/2e/0c/082e0c5fd94866af47f0c6c64fc7a3d1.jpg);
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid  #E82C19;
+    border-radius: 20px;
+    padding: 10px;
+}
+.list-item a:hover{
+    font-weight: 600;
+    color: #BABABA;
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url(https://media.istockphoto.com/id/636906392/es/foto/fondo-de-detalle-de-textura-de-asfalto.jpg?s=1024x1024&w=is&k=20&c=_vYEy7PLz_bRPQniBH4v_4nRUtJCC_s1HpuH6uXDUaE=);
+    /*background-image: url(https://img.freepik.com/vector-premium/huellas-neumaticos-grunge-huella-rueda-coche-banda-rodadura-sucia-bicicleta-marcas-goma-sucias-vehiculo-patinaje-automoviles-o-senderos-vectores-bicicletas-motocross-motorsport-fondo-carreras-rally-off-road-salpicaduras-barro_8071-5696.jpg);*/
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menu li a{
+    display: block;
+}
+.list-item-volver{
+    list-style: none;
+    display: inline;
+}
+.list-item-volver a{
+    background-image: url(https://www.shutterstock.com/image-vector/vector-carbon-fiber-texture-dark-600nw-726091315.jpg);
+    text-decoration: none;
+    color:#0076BE;
+    border: 2px solid  #E82C19;
+    border-radius: 10px;
+    padding: 10px;
+}
+.list-item-volver a:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: black;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image:url(https://brandemia.org/contenido/subidas/2021/11/145-bmw-m-50-aniversario-05-1024x576.jpg)
+}
+.imagen{
+    width: 100%;
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+}
+.Zoom:hover{
+    transform: scale(1.2);
+}
+.grid-container{  
+    width: 100%;  
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 65px 20px;
+}
+article{
+    color: #BABABA;
+    text-align: center;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #9D9D9D
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(146, 142, 139)
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(146, 142, 139)
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(146, 142, 139)
+}
+p{
+    color: #BABABA;
+    font-weight: 800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img.tamano{
+    width: 170px;
+    height: 100px;
+}
+#sizerinicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#sizerinicio video{
+    max-width: 100%;
+    width: 1250px;
+    /*height: 500px;*/
+}
+#sizeart img{
+    max-width: 100%;
+    width: 300px;
+    /*height: 300px;*/
+}
+#sizemotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#sizemotos img{
+    max-width: 100%;
+    width: 900px;
+    /*max-height: 100%;
+    height: 500px;*/
+}
+#sizeautos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px;
+}
+#sizeautos img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 900px;
+}
+
+main{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg);
+    margin: 25px;
+    border: 2px solid  #E82C19;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+footer h4{
+    color:rgb(213, 213, 230);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer h3{
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(43, 43, 228)
+}
+
+footer {
+    text-align: center;
+}
+
+footer{
+    background-color: #E82C19;
+    border: 20px solid #004585; 
+}
+@media (max-width:720px){
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .menu li a{
+        display: block;
+        padding: 6px;}
+    }
