@@ -1,0 +1,58 @@
+.imagen{
+    width: 100%;
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+}
+.Zoom:hover{
+    transform: scale(1.2);
+}
+.grid-container{  
+    width: 100%;  
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 65px 20px;
+}
+img.tamano{
+    width: 170px;
+    height: 100px;
+}
+#sizerinicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#sizerinicio video{
+    max-width: 100%;
+    width: 1250px;
+    /*height: 500px;*/
+}
+#sizeart img{
+    max-width: 100%;
+    width: 300px;
+    /*height: 300px;*/
+}
+#sizemotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    img{
+        max-width: 100%;
+        width: 900px;
+        /*max-height: 100%;
+        height: 500px;*/
+    }
+}
+#sizeautos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px;
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        width: 900px;
+    }
+}
