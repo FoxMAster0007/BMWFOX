@@ -1,12 +1,15 @@
-@import "partials/base/imagensizer";
+
+@import "partials/base/reset";
 @import "partials/base/tipografia";
+
+@import "partials/utiliti/maps";
+@import "partials/utiliti/mixis";
+@import "partials/utiliti/variavles";
 
 @import "partials/componentes/body";
 @import "partials/componentes/footer";
+@import "partials/componentes/imgsizer";
 @import "partials/componentes/index";
 @import "partials/componentes/main";
 @import "partials/componentes/navbar";
 
-@import "partials/utiliti/maps";
-@import "partials/utiliti/mixes";
-@import "partials/utiliti/variavles";

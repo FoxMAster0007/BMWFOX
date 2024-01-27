@@ -1,0 +1,10 @@
+//Mixes
+
+@mixin medidas ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+@mixin medidas-width ($ancho-maximo, $ancho){
+    max-width: $ancho-maximo;
+    width: $ancho;  
+}

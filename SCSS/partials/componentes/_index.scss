@@ -1,0 +1,30 @@
+h1{
+    font-weight: map-get($grosor-letras, M);
+    font-family: $verdana-font;
+    color: aqua;
+}
+h2{
+    font-family: $verdana-font;
+    color: $grayRGB;
+}
+h3{
+    font-family: $verdana-font;
+    color: $grayRGB;
+}
+h4{
+    font-family: $verdana-font;
+    color: $grayRGB;
+}
+p{
+    color: $gray;
+    font-weight: map-get($grosor-letras, M);font-weight: 800;
+    font-family: $Segoe-font;
+}
+article{
+    color: $gray;
+    text-align: center;
+    font-weight: map-get($grosor-letras, S);
+    font-family: $Segoe-font;
+}
+
+
